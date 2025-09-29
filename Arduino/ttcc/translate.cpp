@@ -100,7 +100,7 @@ static const unsigned int translation_table[] PROGMEM = {
   TRX_UNSHIFTED | USBK_D,          // 0x5D -> d
   TRX_UNSHIFTED | USBK_N,          // 0x5E -> n
   TRX_UNSHIFTED | USBK_T,          // 0x5F -> t
-  TRX_UNSHIFTED | USBK_TILDE,      // 0x60 -> `
+  USBK_BACKSLASH,                  // 0x60 -> \ |
   TRX_UNSHIFTED | USBK_RT_BRACKET, // 0x61 -> ]
   TRX_SHIFTED   | USBK_D,          // 0x62 -> D
   TRX_SHIFTED   | USBK_S,          // 0x63 -> S
@@ -108,7 +108,7 @@ static const unsigned int translation_table[] PROGMEM = {
   TRX_UNSHIFTED | USBK_C,          // 0x65 -> c
   TRX_UNSHIFTED | USBK_M,          // 0x66 -> m
   TRX_UNSHIFTED | USBK_U,          // 0x67 -> u
-  TRX_SHIFTED   | USBK_TILDE,      // 0x68 -> ~
+  USBK_TILDE,                      // 0x68 -> ` ~
   TRX_UNSHIFTED | USBK_LT_BRACKET, // 0x69 -> [
   TRX_SHIFTED   | USBK_C,          // 0x6A -> C
   TRX_SHIFTED   | USBK_R,          // 0x6B -> R
