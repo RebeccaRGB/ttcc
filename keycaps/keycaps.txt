@@ -1,18 +1,20 @@
-# 1 count, 2u width by 3u height:
+# By Individual Keycap
+
+## 1 keycap of 2u width by 3u height:
 - 1 small letter: e
 
-# 14 count, 2u width by 2u height:
+## 14 keycaps of 2u width by 2u height:
 - 12 small letters: a c d h i m n o r s t u
 - 1 function key: enter
 - 1 blank (space)
 
-# 15 count, 1u width by 2u height:
+## 15 keycaps of 1u width by 2u height:
 - 8 small letters: b f g l p v w y
 - 1 symbol: ,
 - 3 function keys: escape, tab, backspace
 - 3 modifier keys: shift, ctrl, alt
 
-# 84 count, 1u width by 1u height:
+## 84 keycaps of 1u width by 1u height:
 - 26 capital letters: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 - 5 small letters: j k q x z
 - 2 ligatures: ff fi
@@ -23,3 +25,24 @@
 - 4 arrow keys: up, down, left, right
 - 6 function keys: page up, page down, home, end, prtsc, del
 - 2 modifier keys: fn, meta
+
+# By STL File of Multiple Keycaps
+
+## 1 file (`dsa_2u3u_*.stl`) of keycaps of 2u width by 3u height:
+- 1 of a small letter: e
+
+## 3 files (`dsa_2u2u_*.stl`) of keycaps of 2u width by 2u height:
+- 2 of small letters: acdhim, norstu
+- 1 of function/space keys: functions
+
+## 2 files (`dsa_1u2u_*.stl`) of keycaps of 1u width by 2u height:
+- 1 of small letters and a symbol: bfglpvwy_comma
+- 1 of function/modifier keys: functions
+
+## 12 files (`dsa_1u1u_*.stl`) of keycaps of 1u width by 1u height:
+- 3 of capital letters: cap_qwertyuiop, cap_asdfghjkl, cap_zxcvbnm
+- 1 of small letters and ligatures: jkqxz_ff_fi_fl_ffi_ffl
+- 1 of digits: 1234567890
+- 3 of symbols: symbols1, symbols2, symbols3
+- 2 of dual symbols: grave_tilde, backslash_bar
+- 2 of arrow/function/modifier keys: arrows, functions

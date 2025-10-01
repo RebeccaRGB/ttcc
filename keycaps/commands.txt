@@ -1,0 +1,36 @@
+
+ROW='[["Q"],["W"],["E"],["R"],["T"],["Y"],["U"],["I"],["O"],["P"]]'; openscad -o qwertyuiop.stl -D 'RENDER=["row","row_stems"];' -D "ROW=${ROW};" keycap_playground.scad
+
+ROW='[["A"],["S"],["D"],["F"],["G"],["H"],["J"],["K"],["L"]]'; openscad -o asdfghjkl.stl -D 'RENDER=["row","row_stems"];' -D "ROW=${ROW};" keycap_playground.scad
+
+ROW='[["Z"],["X"],["C"],["V"],["B"],["N"],["M"]]'; openscad -o zxcvbnm.stl -D 'RENDER=["row","row_stems"];' -D "ROW=${ROW};" keycap_playground.scad
+
+ROW='[["1"],["2"],["3"],["4"],["5"],["6"],["7"],["8"],["9"],["0"]]'; openscad -o 1234567890.stl -D 'RENDER=["row","row_stems"];' -D "ROW=${ROW};" keycap_playground.scad
+
+ROW='[["j"],["k"],["q"],["x"],["z"]]'; openscad -o jkqxz.stl -D 'RENDER=["row","row_stems"];' -D "ROW=${ROW};" keycap_playground.scad
+
+ROW='[["ff"],["ﬁ"],["ﬂ"],["fﬁ"],["fﬂ"]]'; openscad -o ff_fi_fl_ffi_ffl.stl -D 'RENDER=["row","row_stems"];' -D "ROW=${ROW};" keycap_playground.scad
+
+ROW='[["j"],["k"],["q"],["x"],["z"],["ff"],["ﬁ"],["ﬂ"],["fﬁ"],["fﬂ"]]'; openscad -o jkqxz_ff_fi_fl_ffi_ffl.stl -D 'RENDER=["row","row_stems"];' -D "ROW=${ROW};" keycap_playground.scad
+
+ROW='[["!"],["@"],["#"],["$"],["%"],["&"],["*"],["?"],[":"],[";"],["."]]'; openscad -o symbols1.stl -D 'RENDER=["row","row_stems"];' -D "ROW=${ROW};" keycap_playground.scad
+
+ROW=[[\"/\"],[\"\|\"],[\"\\\\\"],[\"+\"],[\"-\"],[\"=\"],[\"\\\"\"],[\"\'\"],[\"\`\"],[\"\~\"]]; openscad -o symbols2.stl -D 'RENDER=["row","row_stems"];' -D "ROW=${ROW};" keycap_playground.scad
+
+ROW='[["("],[")"],["["],["]"],["{"],["}"],["<"],[">"],["^"],["_"]]'; openscad -o symbols3.stl -D 'RENDER=["row","row_stems"];' -D "ROW=${ROW};" keycap_playground.scad
+
+ROW=[[\"/\"],[\"\|\"],[\"\\\\\"],[\"+\"],[\"-\"],[\"=\"],[\"\\\"\"],[\"\'\"],[\"\`\"],[\"\~\"]]; echo "ROW=${ROW};"
+
+ROW='[["←"],["↑"],["→"],["↓"]]'; openscad -o arrows.stl -D 'RENDER=["row","row_stems"];' -D "ROW=${ROW};" keycap_playground.scad
+
+ROW='[["pgup"],["pgdn"],["home"],["end"],["prtsc"],["del"],["fn"],["ctrl"],["meta"],["win"],["menu"]]'; openscad -o functions.stl -D 'RENDER=["row","row_stems"];' -D "LEGEND_FONT_SIZES=[4]" -D "ROW=${ROW};" keycap_playground.scad
+
+ROW='[["b"],["f"],["g"],["l"],["p"],["v"],["w"],["y"],[","]]'; openscad -o bfglpvwy_comma.stl -D 'RENDER=["row","row_stems"];' -D "ROW=${ROW};" keycap_playground.scad
+
+ROW='[["esc"],["tab"],["bksp"],["shift"],["ctrl"],["alt"],["opt"],["meta"],["win"]]'; openscad -o functions.stl -D 'RENDER=["row","row_stems"];' -D "LEGEND_FONT_SIZES=[4]" -D "ROW=${ROW};" keycap_playground.scad
+
+ROW='[["a"],["c"],["d"],["h"],["i"],["m"]]'; openscad -o acdhim.stl -D 'RENDER=["row","row_stems"];' -D "ROW=${ROW};" keycap_playground.scad
+
+ROW='[["n"],["o"],["r"],["s"],["t"],["u"]]'; openscad -o norstu.stl -D 'RENDER=["row","row_stems"];' -D "ROW=${ROW};" keycap_playground.scad
+
+ROW='[["enter"],["return"],[]]'; openscad -o functions.stl -D 'RENDER=["row","row_stems"];' -D "LEGEND_FONT_SIZES=[4]" -D "ROW=${ROW};" keycap_playground.scad
